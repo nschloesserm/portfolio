@@ -25,3 +25,10 @@ body {
     width: 171px;
     z-index: 3;
 }
+#gearfour {
+    left: -1.9em;
+    position: fixed;
+    top: 23.3em;
+    width: 240px;
+    z-index: 3;
+}
