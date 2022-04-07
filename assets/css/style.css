@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Georgia;
+    height: 10000px;
+}
+
+#gearone {
+    left: -1.5em;
+    position: fixed;
+    top: 1.5em;
+    width: 150px;
+    z-index: 3;
+}
+#geartwo {
+    left: 4em;
+    position: fixed;
+    top: 8.35em;
+    width: 150px;
+    z-index: 3;
+}
+#gearthree {
+    left: -4em;
+    position: fixed;
+    top: 13.8em;
+    width: 171px;
+    z-index: 3;
+}
