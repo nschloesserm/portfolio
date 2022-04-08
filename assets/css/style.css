@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
 
 body {
     margin: 0;
@@ -7,114 +8,55 @@ body {
 }
 
 #titlename {
-    font-family: 'Neonderthaw', cursive;
-    font-size: 8rem;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 4rem;
     position: fixed;
-    top: 7rem;
-    right: 18rem;
-    animation-name: neon;
-    animation-duration: 5s;
-    animation-iteration-count: 6;
+    top: 2rem;
+    left: 16rem;
+    color: #9c8155;
 }
 
-@keyframes neon {
-    0% {
-        color: black;
-    }
-
-    10% {
-        color: gold;
-    }
-
-    40% {
-        color: black;
-    }
-
-
-    87% {
-        color: gold;
-    }
-
-    90% {
-        color: black;
-    }
-
-    93% {
-        color: gold;
-    }
-
-    95% {
-        color: black;
-    }
-
-    97% {
-        color: gold;
-    }
-
-    100% {
-        color: black;
-    }
-}
-
-#menuone {
-    background-color: lightgrey;
-    color: white;
+.buttonstyle {
+    text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #a28d5b;
+  background-color: #f0ead6;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #dfd7c4;
     padding: 10px 50px;
     position: fixed;
     top: -4rem;
     left: 16rem;
-    z-index: 2;
+    text-decoration: none;
+    font-family: 'Electrolize', sans-serif;
 }
 
-#menutwo {
-    background-color: lightgrey;
-    color: white;
-    padding: 10px 50px;
-    position: fixed;
-    top: -4rem;
-    left: 16rem;
-    z-index: 2;
+.buttonstyle:hover {background-color: #e6e0cc}
+
+.buttonstyle:active {
+  background-color: #f1ecd8;
+  box-shadow: 0 2.5px #dfd7c4;
+  transform: translateY(4px);
 }
 
-#menuthree {
-    background-color: lightgrey;
-    color: white;
-    padding: 10px 50px;
+#scrollwheel {
     position: fixed;
-    top: -4rem;
-    left: 16rem;
-    z-index: 2;
+    right: 7rem;
+    top: 32.5rem;
+    opacity: 0.65;
+    height: 500px;
+    animation-name: spin;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-#menufour {
-    background-color: lightgrey;
-    color: white;
-    padding: 10px 50px;
-    position: fixed;
-    top: -4rem;
-    left: 16rem;
-    z-index: 2;
-}
-
-#menufive {
-    background-color: lightgrey;
-    color: white;
-    padding: 10px 50px;
-    position: fixed;
-    top: -4rem;
-    left: 16rem;
-    z-index: 2;
-}
-
-#menusix {
-    background-color: lightgrey;
-    color: white;
-    padding: 10px 50px;
-    position: fixed;
-    top: -4rem;
-    left: 16rem;
-    z-index: 2;
-}
+@keyframes spin {
+    from {transform: rotate(0deg); }
+    to {transform: rotate(360deg);}
+  }
 
 #textgear {
     left: -1.75em;
@@ -165,10 +107,11 @@ body {
 }
 
 #contentbox {
-    background-color: lightgrey;
+    background-color: #f0ead6;
+    border-radius: 5px;
     position: fixed;
     top: 49.9rem;
-    left: 34rem;
+    left: 33.8rem;
     height: 2600px;
     width: 800px;
     z-index: 2;
@@ -181,3 +124,4 @@ body {
     height: 2600px;
     z-index: 2;
 }
+

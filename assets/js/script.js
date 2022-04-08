@@ -12,6 +12,7 @@ var elemEleven = document.getElementById('menuthree');
 var elemTwelve = document.getElementById('menufour');
 var elemThirteen = document.getElementById('menufive');
 var elemFourteen = document.getElementById('menusix');
+var elemFifteen = document.getElementById('titlename');
 window.addEventListener('scroll', function() {
 	var value = window.scrollY * 0.05;
     var valueTwo = window.scrollY * 0.0438;
@@ -39,4 +40,5 @@ window.addEventListener('scroll', function() {
     elemTwelve.style.transform = `translateY(${valueTen}rem)`;
     elemThirteen.style.transform = `translateY(${valueEleven}rem)`;
     elemFourteen.style.transform = `translateY(${valueTwelve}rem)`;
+    elemFifteen.style.transform = `translateX(${valueTwelve}rem)`;
 });
