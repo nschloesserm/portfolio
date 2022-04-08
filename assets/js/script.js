@@ -13,6 +13,8 @@ var elemTwelve = document.getElementById('menufour');
 var elemThirteen = document.getElementById('menufive');
 var elemFourteen = document.getElementById('menusix');
 var elemFifteen = document.getElementById('titlename');
+var elemSixteen = document.getElementById('naturewoman');
+var elemSeventeen = document.getElementById('quote');
 window.addEventListener('scroll', function() {
 	var value = window.scrollY * 0.05;
     var valueTwo = window.scrollY * 0.0438;
@@ -26,6 +28,7 @@ window.addEventListener('scroll', function() {
     var valueTen = window.scrollY * 0.0027;
     var valueEleven = window.scrollY * 0.0032;
     var valueTwelve = window.scrollY * 0.0037;
+    var valueThirteen = window.scrollY * 0.005;
 	elem.style.transform = `rotate(-${value}deg)`; 
     elemTwo.style.transform = `rotate(${value}deg)`;
     elemThree.style.transform = `rotate(-${valueTwo}deg)`;
@@ -41,4 +44,6 @@ window.addEventListener('scroll', function() {
     elemThirteen.style.transform = `translateY(${valueEleven}rem)`;
     elemFourteen.style.transform = `translateY(${valueTwelve}rem)`;
     elemFifteen.style.transform = `translateX(${valueTwelve}rem)`;
+    elemSixteen.style.transform = `translateY(${valueSix}rem)`;
+    elemSeventeen.style.transform = `translateX(${valueThirteen}rem)`;
 });
