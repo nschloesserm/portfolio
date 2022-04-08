@@ -1,15 +1,75 @@
 body {
     margin: 0;
-    font-family: Georgia;
-    height: 6000px;
+   background-color: rgb(253, 250, 236);
+    height: 10000px;
+}
+
+#menuone {
+    background-color: lightgrey;
+    color: white;
+    padding: 10px 50px;
+    position: fixed;
+    top: -4rem;
+    left: 16rem;
+    z-index: 2;
+}
+
+#menutwo {
+    background-color: lightgrey;
+    color: white;
+    padding: 10px 50px;
+    position: fixed;
+    top: -4rem;
+    left: 16rem;
+    z-index: 2;
+}
+
+#menuthree {
+    background-color: lightgrey;
+    color: white;
+    padding: 10px 50px;
+    position: fixed;
+    top: -4rem;
+    left: 16rem;
+    z-index: 2;
+}
+
+#menufour {
+    background-color: lightgrey;
+    color: white;
+    padding: 10px 50px;
+    position: fixed;
+    top: -4rem;
+    left: 16rem;
+    z-index: 2;
+}
+
+#menufive {
+    background-color: lightgrey;
+    color: white;
+    padding: 10px 50px;
+    position: fixed;
+    top: -4rem;
+    left: 16rem;
+    z-index: 2;
+}
+
+#menusix {
+    background-color: lightgrey;
+    color: white;
+    padding: 10px 50px;
+    position: fixed;
+    top: -4rem;
+    left: 16rem;
+    z-index: 2;
 }
 
 #textgear {
-    left: -1.47em;
+    left: -1.75em;
     position: fixed;
-    top: -0.2em;
-    width: 2000px;
-    z-index: 3;
+    top: -0.4em;
+    width: 2100px;
+    z-index: 2;
 }
 
 #gearone {
@@ -17,33 +77,52 @@ body {
     position: fixed;
     top: 2.1em;
     width: 150px;
-    z-index: 3;
+    z-index: 2;
 }
 #geartwo {
     left: 4em;
     position: fixed;
     top: 8.95em;
     width: 150px;
-    z-index: 3;
+    z-index: 2;
 }
 #gearthree {
     left: -4em;
     position: fixed;
     top: 14.4em;
     width: 171px;
-    z-index: 3;
+    z-index: 2;
 }
 #gearfour {
     left: -2em;
     position: fixed;
     top: 23.85em;
     width: 240px;
-    z-index: 3;
+    z-index: 2;
 }
 #gearfive {
     left: 0.6em;
     position: fixed;
     top: 35.15em;
     width: 500px;
-    z-index: 3;
+    z-index: 2;
 }
+
+#contentbox {
+    background-color: lightgrey;
+    position: fixed;
+    top: 49.9rem;
+    left: 34rem;
+    height: 2600px;
+    width: 800px;
+    z-index: 2;
+}
+
+#textgeartwo {
+    position: fixed;
+    top: 49.5rem;
+    left: 30.3rem;
+    height: 2600px;
+    z-index: 2;
+}
+
