@@ -1,7 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
 body {
     margin: 0;
-   background-color: rgb(253, 250, 236);
+    background-color: rgb(253, 250, 236);
     height: 10000px;
+}
+
+#titlename {
+    font-family: 'Neonderthaw', cursive;
+    font-size: 8rem;
+    position: fixed;
+    top: 7rem;
+    right: 18rem;
+    animation-name: neon;
+    animation-duration: 5s;
+    animation-iteration-count: 6;
+}
+
+@keyframes neon {
+    0% {
+        color: black;
+    }
+
+    10% {
+        color: gold;
+    }
+
+    40% {
+        color: black;
+    }
+
+
+    87% {
+        color: gold;
+    }
+
+    90% {
+        color: black;
+    }
+
+    93% {
+        color: gold;
+    }
+
+    95% {
+        color: black;
+    }
+
+    97% {
+        color: gold;
+    }
+
+    100% {
+        color: black;
+    }
 }
 
 #menuone {
@@ -79,6 +131,7 @@ body {
     width: 150px;
     z-index: 2;
 }
+
 #geartwo {
     left: 4em;
     position: fixed;
@@ -86,6 +139,7 @@ body {
     width: 150px;
     z-index: 2;
 }
+
 #gearthree {
     left: -4em;
     position: fixed;
@@ -93,6 +147,7 @@ body {
     width: 171px;
     z-index: 2;
 }
+
 #gearfour {
     left: -2em;
     position: fixed;
@@ -100,6 +155,7 @@ body {
     width: 240px;
     z-index: 2;
 }
+
 #gearfive {
     left: 0.6em;
     position: fixed;
@@ -125,4 +181,3 @@ body {
     height: 2600px;
     z-index: 2;
 }
-
