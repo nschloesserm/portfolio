@@ -25,9 +25,13 @@ body {
     width: 300px;
     text-align: left;
     position: fixed;
-    top: 13rem;
-    right: 7.5rem;
+    top: 8rem;
+    right: 6.5rem;
     color: #9c8155;
+}
+
+#quoteauthor {
+    font-size: 1.5rem;
 }
 
 #naturewoman {
