@@ -34,11 +34,110 @@ body {
     font-size: 1.5rem;
 }
 
-#naturewoman {
-    position: fixed;
-    width: 1000px;
-    left: 4.55rem;
+.letterbar {
+    height: 900px;
+    width: 100px;
+    margin-top: -2.2rem;
+    background-color: #776241;
 }
+
+.letterbarform {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 8rem;
+    text-align: center;
+    position: fixed;
+    height: 1000px;
+    width: 100px;
+    color: #776241;
+}
+#lettera {
+    left: 15rem;
+    top: 8rem;
+}
+
+#letterb {
+    left: 22rem;
+    top: 8rem;
+}
+
+#letterc {
+    left: 29rem;
+    top: 8rem;
+}
+
+.letterbartwo {
+    height: 900px;
+    width: 100px;
+    margin-top: -2.2rem;
+    background-color: #af905e;
+}
+
+.letterbarformtwo {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 8rem;
+    text-align: center;
+    position: fixed;
+    height: 1000px;
+    width: 100px;
+    color: #af905e;
+}
+#letterd {
+    left: 32rem;
+    top: 18rem;
+}
+
+#lettere {
+    left: 39rem;
+    top: 18rem;
+}
+
+#letterf {
+    left: 46rem;
+    top: 18rem;
+}
+
+#letterg {
+    left: 53rem;
+    top: 18rem;
+}
+
+
+.letterbarthree {
+    height: 900px;
+    width: 100px;
+    margin-top: -2.2rem;
+    background-color: #d0af7c;
+}
+
+.letterbarformthree {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 8rem;
+    text-align: center;
+    position: fixed;
+    height: 1000px;
+    width: 100px;
+    color: #d0af7c;
+}
+#letterh {
+    left: 19rem;
+    top: 28rem;
+}
+
+#letteri {
+    left: 26rem;
+    top: 28rem;
+}
+
+#letterj {
+    left: 33rem;
+    top: 28rem;
+}
+
+#letterk {
+    left: 40rem;
+    top: 28rem;
+}
+
 .buttonstyle {
     text-align: center;
   cursor: pointer;
@@ -102,10 +201,10 @@ body {
   }
 
 #textgear {
-    left: -1.75em;
+    left: -1.65em;
     position: fixed;
-    top: -0.4em;
-    width: 2100px;
+    top: -1.5em;
+    width: 3000px;
     z-index: 2;
 }
 
@@ -160,11 +259,13 @@ body {
     z-index: 2;
 }
 
-#textgeartwo {
+#textedge {
     position: fixed;
-    top: 49.5rem;
+    top: 49.9rem;
     left: 30.3rem;
     height: 2600px;
+    width: 50px;
+    background-color: #9c8155;
     z-index: 2;
 }
 
