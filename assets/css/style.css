@@ -118,33 +118,33 @@ body {
 }
 
 #geartwo {
-    left: 4em;
+    left: 3.8em;
     position: fixed;
-    top: 8.95em;
+    top: 9em;
     width: 150px;
     z-index: 2;
 }
 
 #gearthree {
-    left: -4em;
+    left: -4.3em;
     position: fixed;
-    top: 14.4em;
+    top: 14.2em;
     width: 171px;
     z-index: 2;
 }
 
 #gearfour {
-    left: -2em;
+    left: -1.15em;
     position: fixed;
-    top: 23.85em;
+    top: 23.5em;
     width: 240px;
     z-index: 2;
 }
 
 #gearfive {
-    left: 0.6em;
+    left: -3em;
     position: fixed;
-    top: 35.15em;
+    top: 37.5em;
     width: 500px;
     z-index: 2;
 }
@@ -174,4 +174,17 @@ body {
     width: 100px;
     height: 100px;
     top: 20rem;
+}
+
+.videoall {
+    position: absolute;
+    right: 13rem;
+}
+
+#videoone {
+    top: 10rem;
+}
+
+#videotwo {
+    top: 35rem;
 }

@@ -17,9 +17,9 @@ var elemSixteen = document.getElementById('naturewoman');
 var elemSeventeen = document.getElementById('quote');
 window.addEventListener('scroll', function() {
 	var value = window.scrollY * 0.05;
-    var valueTwo = window.scrollY * 0.0438;
-    var valueThree = window.scrollY * 0.038;
-    var valueFour = window.scrollY * 0.0187;
+    var valueTwo = window.scrollY * 0.0503;
+    var valueThree = window.scrollY * 0.025;
+    var valueFour = window.scrollY * 0.0072;
     var valueFive = window.scrollY * 0.00395;
     var valueSix = window.scrollY * 0.0047;
     var valueSeven = window.scrollY * 0.0012;
