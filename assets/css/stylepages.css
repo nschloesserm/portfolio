@@ -2,38 +2,94 @@ body {
     margin: 0;
     background-color: rgb(253, 250, 236);
     height: 100%;
-    width: 8000px;
+    width: 15000px;
+}
+
+#arttitlename {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 3rem;
+    position: fixed;
+    top: 2.5rem;
+    left: 33rem;
+    color: #9c8155;
 }
 
 .buffer {
-    height: 100px;
+    height: 15px;
 }
+
 
 .box {
     display: inline-block;
-    width: 500px;
+    width: 850px;
+    height: 550px;
+    margin: 0 300px;
+    border: #a28d5b solid 5px;
+    border-radius: 10px;
+}
+
+.boxbuffer {
+    display: inline-block;
+    width: 250px;
     height: 100px;
-    background-color: red;
+}
+
+.boxbuffertwo {
+    display: inline-block;
+    width: 250px;
+    height: 450px;
+}
+
+#buttoncontainer {
+    position: fixed;
+    top: 42rem;
+    left: 41.5rem;
 }
 
 .buttonstyles {
+    display: inline-block;
     text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #a28d5b;
-  background-color: #f0ead6;
-  border: none;
-  border-radius: 30px;
-  box-shadow: 0 9px #dfd7c4;
+    cursor: pointer;
+    outline: none;
+    color: #a28d5b;
+    background-color: #f0ead6;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 9px #dfd7c4;
     padding: 10px 10px;
-    position: fixed;
+    margin: 0 10px;
+    width: 20px;
     text-decoration: none;
     font-family: 'Electrolize', sans-serif;
 }
 
+.buttonstyles:hover {
+    background-color: #e6e0cc
+}
+
+.buttonstyles:active {
+    background-color: #f1ecd8;
+    box-shadow: 0 2.5px #dfd7c4;
+    transform: translateY(4px);
+}
+
 .buttonposit {
-    position: fixed;
     top: 40rem;
     left: 70rem;
 }
 
+.pushlocate {
+    width: 1445px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    right: 550px;
+}
+
+.videoall {
+    position: relative;
+    left: 105px;
+    top: 90px;
+    border-radius: 10px;
+    border: #a28d5b solid 5px;
+}

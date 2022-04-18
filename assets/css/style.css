@@ -2,7 +2,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     margin: 0;
@@ -50,6 +50,7 @@ body {
     width: 100px;
     color: #776241;
 }
+
 #lettera {
     left: 15rem;
     top: 8rem;
@@ -81,6 +82,7 @@ body {
     width: 100px;
     color: #af905e;
 }
+
 #letterd {
     left: 32rem;
     top: 18rem;
@@ -118,6 +120,7 @@ body {
     width: 100px;
     color: #d0af7c;
 }
+
 #letterh {
     left: 19rem;
     top: 28rem;
@@ -140,13 +143,13 @@ body {
 
 .buttonstyle {
     text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #a28d5b;
-  background-color: #f0ead6;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0 9px #dfd7c4;
+    cursor: pointer;
+    outline: none;
+    color: #a28d5b;
+    background-color: #f0ead6;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #dfd7c4;
     padding: 10px 50px;
     position: fixed;
     top: -4rem;
@@ -155,12 +158,14 @@ body {
     font-family: 'Electrolize', sans-serif;
 }
 
-.buttonstyle:hover {background-color: #e6e0cc}
+.buttonstyle:hover {
+    background-color: #e6e0cc
+}
 
 .buttonstyle:active {
-  background-color: #f1ecd8;
-  box-shadow: 0 2.5px #dfd7c4;
-  transform: translateY(4px);
+    background-color: #f1ecd8;
+    box-shadow: 0 2.5px #dfd7c4;
+    transform: translateY(4px);
 }
 
 .buttonstyletwo {
@@ -170,15 +175,19 @@ body {
 .buttonstylethree {
     top: 11.8491rem;
 }
+
 .buttonstylefour {
     top: 16.5106rem;
 }
+
 .buttonstylefive {
     top: 21.1721rem;
 }
+
 .buttonstylesix {
     top: 25.8336rem;
 }
+
 .buttonstyleseven {
     top: 30.4951rem;
 }
@@ -190,15 +199,20 @@ body {
     opacity: 0.25;
     height: 300px;
     animation-name: spin;
-  animation-duration: 18s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes spin {
-    from {transform: rotate(0deg); }
-    to {transform: rotate(360deg);}
-  }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 #textgear {
     left: -1.65em;
@@ -259,6 +273,14 @@ body {
     z-index: 2;
 }
 
+#frontpagetitle {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2px;
+    color: #9c8155;
+}
+
 #textedge {
     position: fixed;
     top: 49.9rem;
@@ -277,26 +299,14 @@ body {
     top: 20rem;
 }
 
-.videoall {
-    position: absolute;
-    right: 13rem;
-}
 
-#videoone {
-    top: 10rem;
-}
-
-#videotwo {
-    top: 35rem;
-}
-  
-  .cover {
-      background-color: rgb(253, 250, 236);
-      position: fixed;
+.cover {
+    background-color: rgb(253, 250, 236);
+    position: fixed;
     top: 1rem;
     left: 14rem;
-      height: 1000px;
-      width: 250px;
-      border-right: #776241 solid 10px;
-      border-left: #776241 solid 10px;
-  }
+    height: 1000px;
+    width: 250px;
+    border-right: #776241 solid 10px;
+    border-left: #776241 solid 10px;
+}
