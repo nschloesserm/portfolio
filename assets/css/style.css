@@ -289,3 +289,14 @@ body {
 #videotwo {
     top: 35rem;
 }
+  
+  .cover {
+      background-color: rgb(253, 250, 236);
+      position: fixed;
+    top: 1rem;
+    left: 14rem;
+      height: 1000px;
+      width: 250px;
+      border-right: #776241 solid 10px;
+      border-left: #776241 solid 10px;
+  }
